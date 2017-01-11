@@ -27,10 +27,12 @@ public class HomeController {
 
     @RequestMapping(value = "/stud", method = RequestMethod.GET)
     public String doGET(Model model) {
-        /*List<Student> studentList = studentDao.getAll();
-		model.addAttribute("student", new Student());
-		model.addAttribute("studentList", studentList);*/
         return "studentForm";
+    }
+
+    @RequestMapping(value = "/currency", method = RequestMethod.GET)
+    public String currencyGET() {
+        return "currency";
     }
 
     /**

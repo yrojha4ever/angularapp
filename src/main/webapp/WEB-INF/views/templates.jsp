@@ -70,3 +70,18 @@
         </div>
     </div>
 </script>
+
+<script type="text/ng-template" id="Currency.html">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-block">
+                <h4 class="card-title"><strong>{{vm.base}}</strong></h4>
+                <p class="card-text">
+                    <ul style="width: 20rem;" class="list-group list-group-flush" ng-repeat="(currencyBase, currencyRate) in vm.rates" style="margin-bottom:0px!important;">
+                        <li class="list-group-item">{{currencyBase}} : {{currencyRate}}</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</script>

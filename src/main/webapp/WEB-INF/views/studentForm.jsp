@@ -1,18 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-         pageEncoding="ISO-8859-1" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Insert title here</title>
+<%@include file="header.jsp"%>
+<script src="${pageContext.request.contextPath }/resources/js/app/studentApp.js"></script>
 
-    <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/bootstrap.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/ui-grid.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/font-awesome.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/angular-ui-notification.css">
+<nav class="breadcrumb">
+    <a class="breadcrumb-item active" href="${pageContext.request.contextPath }/stud"> Student CRUD Angular /</a>
+    <a class="breadcrumb-item " href="${pageContext.request.contextPath }/currency"> Currency API /</a>
+</nav>
 
-</head>
-<body>
 <div ng-app="studentApp">
     <div class="alert alert-success" role="alert"><h3> Student Rest CRUD with Angular </h3></div>
 
@@ -21,25 +14,4 @@
     <%@ include file="templates.jsp" %>
 </div>
 
-
-<script src="${pageContext.request.contextPath }/resources/js/jquery.js"></script>
-<script src="${pageContext.request.contextPath }/resources/js/bootstrap.js"></script>
-
-<script src="${pageContext.request.contextPath }/resources/js/angular.js"></script>
-<script src="${pageContext.request.contextPath }/resources/js/angular-route.js"></script>
-<script src="${pageContext.request.contextPath }/resources/js/angular-animate.js"></script>
-<script src="${pageContext.request.contextPath }/resources/js/angular-resource.js"></script>
-<script src="${pageContext.request.contextPath }/resources/js/angular-sanitize.js"></script>
-<script src="${pageContext.request.contextPath }/resources/js/angular-touch.js"></script>
-<script src="${pageContext.request.contextPath }/resources/js/angular-ui-notification.js"></script>
-
-<!-- ui-grid -->
-<script src="${pageContext.request.contextPath }/resources/js/ui-grid.js"></script>
-<script src="${pageContext.request.contextPath }/resources/js/lodash.js"></script>
-<script src="${pageContext.request.contextPath }/resources/js/restangular.js"></script>
-<script src="${pageContext.request.contextPath }/resources/js/ui-bootstrap-tpls-1.3.3.js"></script>
-
-
-<script src="${pageContext.request.contextPath }/resources/js/app/studentApp.js"></script>
-</body>
-</html>
+<%@include file="footer.jsp"%>

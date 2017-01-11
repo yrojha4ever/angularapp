@@ -2,13 +2,19 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+	<title>Angular App</title>
+	<link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/bootstrap.css">
+	<script src="${pageContext.request.contextPath }/resources/js/jquery.js"></script>
+	<script src="${pageContext.request.contextPath }/resources/js/bootstrap.js"></script>
+
 </head>
 <body>
-<h1>
-	Hello world!  
-</h1>
+	<h1> Welcome to Angular World! </h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+	<nav class="breadcrumb">
+		<a class="breadcrumb-item" href="${pageContext.request.contextPath }/stud"> Student CRUD Angular /</a>
+		<a class="breadcrumb-item" href="${pageContext.request.contextPath }/currency"> Currency API /</a>
+	</nav>
+
 </body>
 </html>
