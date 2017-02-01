@@ -13,10 +13,12 @@ Create a database named 'angularapp' in mysql(table will be automatically create
 
 
 <br/><br/><br/><hr>
-Angular Syallabus taught per day in NEA:
-Day 1: Java Script, variable, array, dialog, 
-	function, anonymous function, dom manipulation,
-	history behind angular js, advantage of angular over jquery.
+#Angular Syllabus taught per day in NEA:
+```
+Day 1:
+Java Script, variable, array, dialog, 
+function, anonymous function, dom manipulation,
+history behind angular js, advantage of angular over jquery.
 
 Day 2:
 The angular architecture
@@ -63,3 +65,4 @@ bootstrap
 Notification
 ui-grid (table)
 bootstrap dialog (angular modal)
+```
