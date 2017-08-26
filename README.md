@@ -10,6 +10,7 @@ Create a database named 'angularapp' in mysql(table will be automatically create
 
 [Angular 2](https://angular-2-training-book.rangle.io) <br/>
 [RxJs](https://www.learnrxjs.io/)
+[Angular 1 Single Page App and SEO](https://scotch.io/tutorials/single-page-apps-with-angularjs-routing-and-templating)
 
 
 
