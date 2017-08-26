@@ -9,7 +9,7 @@ Create a database named 'angularapp' in mysql(table will be automatically create
 2. Open browser and hit url: http://localhost:8080/angularapp/stud <br/>
 
 [Angular 2](https://angular-2-training-book.rangle.io) <br/>
-[RxJs](https://www.learnrxjs.io/)
+[RxJs](https://www.learnrxjs.io/) <br/>
 [Angular 1 Single Page App and SEO](https://scotch.io/tutorials/single-page-apps-with-angularjs-routing-and-templating)
 
 
